@@ -37,7 +37,7 @@ const Navigation = () =>{
                 <Link to='/'>Home</Link>
             </Menu.Item>
             <Menu.Item key="profile"  icon={<UserOutlined />}>
-                <Link to='profile'>Profile</Link>
+                <Link to='/profile'>Profile</Link>
             </Menu.Item>
             <Menu.Item key="diet">
                 <Dropdown overlay={diet} trigger={['click']}>
@@ -54,7 +54,7 @@ const Navigation = () =>{
                 </Dropdown>
             </Menu.Item>
             <Menu.Item key="question" icon={<QuestionCircleOutlined />}>
-                <Link to='question'></Link>
+                <Link to='/question'></Link>
             </Menu.Item>
 
         </Menu>
