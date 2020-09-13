@@ -1,0 +1,13 @@
+@import '~antd/dist/antd.css';
+
+.main-header {
+    display: flex;
+    width: 100%;
+}
+.logo {
+    margin-right: 50px;
+}
+.button-search{
+    margin-top: 15px;
+    margin-left: 15px;
+}

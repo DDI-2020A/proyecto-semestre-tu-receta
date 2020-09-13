@@ -1,0 +1,71 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-image: url("../images/fondo-largo-exposure.jpg");
+    background-repeat: repeat;
+}
+.container{
+    color: #C06C84;
+    font-family: 'Pacifico', cursive;
+}
+.center{
+    margin-top: 120px;
+    padding: 24%;
+}
+.imagenFondo{
+    width: 1349px;
+    height: 650px;
+}
+.square{
+    margin-top: 50px;
+    width: 1050px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: 165px;
+}
+.sign-inP{
+    padding-top: 40px;
+}
+.txt-ingresar{
+    text-align: center;
+    font-size: 38px;
+}
+.button-ingresar{
+    padding-left: 230px;
+    padding-right: 230px;
+    border-radius: 50px;
+    background-color: #C06C84;
+    border: none;
+}
+.button-ingresar:hover{
+    background-color:  #FD839D;
+}
+.button-empezar{
+    background-color: #C06C84;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 195px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+.button-empezar:hover{
+    background-color:  #FD839D;
+}
+.registrarP{
+    margin-left: 640px;
+    color: black;
+}
+.registrarP:hover{
+  color:  #FD839D;
+}
+.txt-carousel{
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
