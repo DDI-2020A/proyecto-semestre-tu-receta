@@ -202,7 +202,7 @@ const Home  = () => {
                          }}
                 >
                     <Recipe/>
-                    <Pagination defaultCurrent={1} total={50} />
+
                 </Content>
             </Layout>
     );

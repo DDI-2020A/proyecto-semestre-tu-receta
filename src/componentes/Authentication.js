@@ -13,8 +13,8 @@ const Authentication = () =>{
     const [hasAccount, setHasAccount] = useState(false);
 
     const  clearInputs = () =>{
-      setEmail('');
-      setPassword('');
+        setEmail('');
+        setPassword('');
     };
 
     const clearErrors = () => {
@@ -25,17 +25,17 @@ const Authentication = () =>{
     const handleLogin = () => {
         clearErrors();
         FIREBASE.auth.signInWithEmailAndPassword( email, password ).
-            catch(err => {
-                switch (err.code){
-                    case 'auth/invalid-email':
-                    case 'auth/user-disable':
-                    case 'auth/user-not-found':
-                        setEmailError(err.message);
-                        break;
-                    case 'auth/wrong-password':
-                        setPasswordError(err.message);
-                        break;
-                };
+        catch(err => {
+            switch (err.code){
+                case 'auth/invalid-email':
+                case 'auth/user-disable':
+                case 'auth/user-not-found':
+                    setEmailError(err.message);
+                    break;
+                case 'auth/wrong-password':
+                    setPasswordError(err.message);
+                    break;
+            };
         });
     };
 
@@ -71,24 +71,24 @@ const Authentication = () =>{
     };
 
     useEffect(() => {
-       authListener();
+        authListener();
     }, []);
 
     return(
         <div>
 
-                <Login
-                    email={email}
-                    setEmail={setEmail}
-                    password={password}
-                    setPassword={setPassword}
-                    handleLogin={handleLogin}
-                    handleSignIn={handleSignIn}
-                    hasAccount={hasAccount}
-                    setHasAccount={setHasAccount}
-                    emailError={emailError}
-                    passwordError={passwordError}
-                />
+            <Login
+                email={email}
+                setEmail={setEmail}
+                password={password}
+                setPassword={setPassword}
+                handleLogin={handleLogin}
+                handleSignIn={handleSignIn}
+                hasAccount={hasAccount}
+                setHasAccount={setHasAccount}
+                emailError={emailError}
+                passwordError={passwordError}
+            />
 
         </div>
     );
