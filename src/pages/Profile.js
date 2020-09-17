@@ -50,6 +50,7 @@ const Profile = () => {
                     <Menu.Item key="8" icon={<ShopOutlined />}>
                         nav 8
                     </Menu.Item>
+
                 </Menu>
             </Sider>
             <Layout className="site-layout" style={{ marginLeft: 200 }}>

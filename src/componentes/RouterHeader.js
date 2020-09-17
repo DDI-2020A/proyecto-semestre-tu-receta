@@ -9,19 +9,9 @@ const { Header, Content, Sider } = Layout;
 
 const RouterHeader  = () => {
     return (
-        <Router>
-            <Layout className='layout'>
-                <Header className='main-header'>
-                    <div className='logo'>
-                        <img src={logoT} alt='' width='150px'/>
-                    </div>
-                    <Navigation/>
-                </Header>
-                <Content className='main-content'>
-                    <AppRouter />
-                </Content>
-            </Layout>
-        </Router>
+        <div>
+            h
+        </div>
     );
 };
 

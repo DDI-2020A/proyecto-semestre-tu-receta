@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/Home.css'
 import fruits from '../images/fruits.svg';
 import vegetable from '../images/vegetable.svg';
 import milk from '../images/milk.svg';
@@ -15,12 +15,10 @@ import aceite from '../images/aceite.svg';
 import sal from '../images/sal.svg';
 import cereal from '../images/cereal.svg';
 import miel from '../images/miel.svg';
-import { Pagination } from 'antd';
 import { Menu } from 'antd';
 import { Layout, Breadcrumb } from 'antd';
 import { Checkbox } from 'antd';
 import Recipe from "../componentes/Recipe";
-import RouterHeader from "../componentes/RouterHeader";
 const { SubMenu } = Menu;
 const { Content, Sider } = Layout;
 
@@ -32,15 +30,16 @@ const Home  = () => {
     return(
 
             <Layout>
-                {/* <RouterHeader/> */}
-                <Sider width={250} className="site-layout-background"
+                {/*<RouterHeader/>*/}
+                <Sider width={250} className="site-layout-background "
                        style={{
                            overflow: 'auto',
-                           height: '120vh',
-
+                           height: '100vh',
+                           position: 'fixed',
+                           left: 0,
                        }}
                 >
-                    <Menu
+                    <Menu className='menu-home'
                         mode="inline"
                         defaultSelectedKeys={['']}
                         defaultOpenKeys={['']}

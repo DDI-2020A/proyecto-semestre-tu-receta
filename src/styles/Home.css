@@ -9,5 +9,9 @@
 }
 .button-search{
     margin-top: 15px;
-    margin-left: 15px;
+   right: 15%;
+}
+
+.main-content{
+ margin-top: 60px;
 }

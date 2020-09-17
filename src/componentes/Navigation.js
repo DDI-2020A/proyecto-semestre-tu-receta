@@ -58,7 +58,6 @@ const Navigation = () =>{
             </Menu.Item>
 
         </Menu>
-    <br/>
     </>
 
      );
