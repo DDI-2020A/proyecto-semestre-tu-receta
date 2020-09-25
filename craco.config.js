@@ -8,19 +8,15 @@ module.exports = {
                 lessLoaderOptions: {
                     lessOptions: {
                         modifyVars: {
-                            '@primary-color': '#1DA57A',
-                            '@link-color': '#cd18ff', // link color
-                            '@success-color': '#18bfdd', // success state color
+                            '@primary-color': '#69D30B',
+                            '@link-color': '#FFFFFF',
+                            '@success-color': '#2A94F4', // success state color
                             '@warning-color': '#faad14', // warning state color
-                            '@error-color': '#dd8589', // error state color
-                            '@font-size-base': '14px', // major text font size
-                            '@heading-color': 'rgba(255,0,0,0.85)', // heading text color
-                            '@text-color': 'rgb(128,148,37)', // major text color
-                            '@text-color-secondary': 'rgba(167,31,31,0.45)', // secondary text color
-                            '@disabled-color': 'rgb(20,56,190)', // disable state color
-                            '@border-radius-base': '2px', // major border radius
-                            '@border-color-base': '#d9d9d9', // major border color
-                            '@box-shadow-base': '0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),0 9px 28px 8px rgba(0, 0, 0, 0.05)' // major shadow for layers
+                            '@error-color': '#f5222d', // error state color
+                            '@font-size-base': '15px', // major text font size
+                            '@heading-color': 'rgb(0,48,110)', // heading text color
+                            '@text-color': 'rgba(0, 0, 0, 0.80)', // major text color
+                            '@text-color-secondary': 'rgb(121,121,121,0.8)' // secondary text color
                         },
                         javascriptEnabled: true,
                     },

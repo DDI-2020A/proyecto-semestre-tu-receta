@@ -1,0 +1,21 @@
+.textInputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 16px 0;
+  }
+  
+  input.search {
+    flex-grow: 1;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: var(--secondary);
+  }
+  
+  input.search:focus {
+    background-color: var(--tertiary-light);
+  }
+  .search-input{
+      width: 40%;
+  }

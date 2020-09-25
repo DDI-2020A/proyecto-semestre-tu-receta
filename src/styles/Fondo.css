@@ -1,0 +1,17 @@
+.fondo{
+    background-image: url(../images/fondo-corto.jpg);
+ 
+
+}
+.ant-layout {
+    padding: 0px !important; 
+    
+    
+   
+}
+.footer{
+    
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
